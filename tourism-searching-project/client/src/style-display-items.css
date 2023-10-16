@@ -1,0 +1,52 @@
+/* style-display-items.css */
+.display-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+  }
+  
+.item {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+  }
+  
+.big-thumbnail {
+    flex: 0 0 400px;
+    margin-right: 10px;
+  }
+  
+.trip-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-size: 20px;
+    color: darkgray;
+  }
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.tag{
+    border-bottom: 2px solid cornflowerblue;
+}
+
+.thumbnail-box{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    gap: 10px;
+}
+
+.trip-title{
+    font-weight: bold;
+    color: black;
+}
+
+.main-thumbnail, .box {
+    border-radius: 5%;
+}

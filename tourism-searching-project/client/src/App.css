@@ -1,0 +1,65 @@
+*{
+    margin: 10;
+    font-family: 'Kanit', sans-serif;
+}
+
+:root{
+    --primary-color: black;
+    --secondary-color: cornflowerblue;
+    --third-color: darkgray;
+
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+.container {
+    background-color: white;
+    margin: 2%;
+}
+
+.title-box{
+    margin-top: 2%;
+    font-size: 50px;
+    color: var(--secondary-color);
+    font-weight: 600;
+    text-align: center;
+    background-color: transparent;
+    padding: 16px;
+}
+
+.subtitle{
+    font-size: 18px;
+    color: var(--third-color);
+    font-weight: 100;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.searching-box {
+    background-color: white;
+    margin-left: 30%;
+    width: 600px;
+    height: 50px;
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.magniglass {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.input-box {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-left: 5%;
+  }
