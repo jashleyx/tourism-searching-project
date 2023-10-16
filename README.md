@@ -1,7 +1,8 @@
 # Tourism-Searching-Project
 ![image](https://github.com/jashleyx/tourism-searching-project/assets/134845929/6a031a52-b53a-441a-9988-1595f5f33a8d)
 
-<b>The "Tourism Searching Mini Project"</b> is a website designed to search for tourist destinations based on the following requirements:
+<b>The "Tourism Searching Mini Project"</b> is a website designed to search for tourist destinations 
+based on the following requirements:
 1) Users can enter search queries in the input field to search for tourist destinations.
 - If the website is opened, and the user has not entered any text in the input field,
 the system should display all available data from the server.
